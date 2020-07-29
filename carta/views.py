@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def carta_list(request):
-    return render(request, 'carta/indexV2.html', {})
+    return render(request, 'carta/index.html', {})
     
 def carta(request):
     return render(request, 'carta/products.html', {})
